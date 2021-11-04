@@ -28,6 +28,8 @@ body {
 
 .main {
     flex: 1 0 auto;
+    max-width: 767px;
+    margin: auto;
 }
 
 .header, .footer {
