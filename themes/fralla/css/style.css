@@ -22,7 +22,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color:cornsilk;
+    background-color:#ccc;
     margin :auto
 }
 
@@ -34,6 +34,7 @@ body {
 
 .header, .footer {
     flex: 0 0 auto;
+    background-color: white;
 }
 
 /* Header */

@@ -22,10 +22,14 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    margin :auto
 }
 
 .main {
     flex: 1 0 auto;
+    max-width: 767px;
+    margin: auto;
 }
 
 .header, .footer {
