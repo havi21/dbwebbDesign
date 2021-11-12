@@ -3,10 +3,9 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Om mig
 ==========================
 
-En liten berättelse om mig.
 
 ![picture of a man](assets/img/jag.jfif "Picture of a man")
 

@@ -1,11 +1,11 @@
 ---
-Logo: assets/img/french_bulldog.jfif
-Tagline: My portfolio.
+Logo: assets/img/fb.png
+Tagline: This is my portfolio.
 Social:
     - title: Link till min github repo.
       url: https://github.com/havi21/dbwebbDesign
-      icon: paw
+      icon: fab fa-github
     - title: Link till sidans github repo.
       url: https://github.com/dbwebb-se/design-v3
-      icon: leaf
+      icon: fab fa-github-alt
 ---

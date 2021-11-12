@@ -1,0 +1,16 @@
+body {
+    background-color: $background-color;
+    max-width: $max-width;
+    margin: auto;
+    line-height: 1.4;
+    padding: 0.1em;
+    
+}
+
+.main {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    background-color: $background-alternative-color;
+}
