@@ -1,10 +1,9 @@
 body {
-    background-color: $background-color;
+    background-color: $background-color-techno;
     max-width: $max-width;
     margin: auto;
     line-height: 1.4;
-    padding: 0.1em;
-    
+    padding: 0.1em;    
 }
 
 .main {
@@ -13,4 +12,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: $background-alternative-color;
+}
+
+@media only screen and (max-width: 800px) {
+    /* For desktop: */
+    body {
+        max-width: auto;
+        margin: 0;
+    }
 }

@@ -1,6 +1,6 @@
 ---
 Title: About
-Description: Page about my technics in webdeveloping
+Description: Page about my TESTING technics in webdeveloping
 ---
 
 Tekniker i dbwebb Design

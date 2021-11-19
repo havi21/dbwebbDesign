@@ -6456,6 +6456,7 @@ template {
 }
 
 /*Colors*/
+/* Technology */
 /*Widths and heights*/
 blockquote {
   font-style: italic;
@@ -6493,7 +6494,7 @@ pre code {
 }
 
 body {
-  background-color: #a45d5d;
+  background-color: #faebcd;
   max-width: 60%;
   margin: auto;
   line-height: 1.4;
@@ -6505,25 +6506,128 @@ body {
   border: 0 none;
   margin: 0;
   padding: 0;
-  background-color: #efefef;
+  background-color: #f7c873;
 }
 
+@media only screen and (max-width: 800px) {
+  /* For desktop: */
+  body {
+    max-width: auto;
+    margin: 0;
+  }
+}
 .header {
   max-width: 100%;
 }
 
 .nav {
-  background-color: #efefef;
+  background-color: #f7c873;
   max-width: 100%;
   text-align: center;
 }
 
 .footer {
-  background-color: #efefef;
+  background-color: #f7c873;
 }
 
 .social {
   text-align: right;
-  background-color: #efefef;
+  background-color: #f7c873;
   max-width: 100%;
+}
+
+.landingpage {
+  display: grid;
+  grid-column: repeat(3, 1fr);
+  gap: 1em 1em;
+  justify-self: center;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.kmom-box {
+  border: solid 2px #000;
+  background-color: #fde8cd;
+  grid-column: span 1;
+}
+
+.tnl {
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  background-color: #f7c873;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobiles: */
+  .landingpage {
+    grid-template-columns: auto auto auto;
+  }
+
+  .kmom-box {
+    grid-column: span 3;
+  }
+}
+.page {
+  display: grid;
+  grid-template-columns: 100px auto;
+  gap: 1em 1em;
+  justify-self: center;
+}
+
+.page h1 {
+  grid-row: 1;
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.box {
+  grid-row: 2;
+  grid-column: span 1;
+  border: solid 2px black;
+  background-color: #faebcd;
+}
+
+.sidebar {
+  grid-row: 2;
+  grid-column: span 1;
+  border: solid 2px black;
+  background-color: #faebcd;
+}
+
+.technology {
+  box-sizing: border-box;
+  border: 0 none;
+  padding: 0;
+  background-color: #f7c873;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile: */
+  .page {
+    grid-template-columns: auto;
+  }
+
+  .sidebar {
+    grid-row: 3;
+  }
+
+  .technology {
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile: */
+  .page {
+    grid-template-columns: 450px;
+  }
+
+  .sidebar {
+    display: none;
+  }
 }
