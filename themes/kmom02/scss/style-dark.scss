@@ -10,7 +10,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 /* Internal import */
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables-dark';
 @import 'blockquotes';
 @import 'code';
 @import 'main';
@@ -20,3 +20,4 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'typograph';
 @import 'technologies';
 @import 'technology';
+

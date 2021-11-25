@@ -2,6 +2,12 @@
 Logo: assets/img/fb.png
 Tagline: This is my portfolio.
 Social:
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
     - title: Link till min github repo.
       url: https://github.com/havi21/dbwebbDesign
       icon: fab fa-github
