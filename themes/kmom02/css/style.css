@@ -6455,7 +6455,7 @@ template {
   display: none;
 }
 
-/*Colors*/
+/*Colors light*/
 /* Technology */
 /*Widths and heights*/
 blockquote {
@@ -6509,6 +6509,11 @@ body {
   background-color: #f7c873;
 }
 
+/* img {
+    width: 20%;
+    height: auto;
+    padding: 16px;
+  } */
 @media only screen and (max-width: 800px) {
   /* For desktop: */
   body {
@@ -6525,16 +6530,6 @@ body {
   max-width: 100%;
   text-align: center;
   margin: 0%;
-}
-
-.ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 2px;
 }
 
 .footer {
@@ -6558,7 +6553,7 @@ html {
 p {
   font-size: 1.25em;
   margin-bottom: 1.75rem;
-  padding: 8px 8px;
+  padding: 16px;
   color: #333;
 }
 
@@ -6578,6 +6573,7 @@ h5,
 h6 {
   font-family: "Open Sans", sans-serif;
   color: #333;
+  padding: 16px;
 }
 
 h1 {
@@ -6610,12 +6606,44 @@ h1 {
   grid-column: span 1;
 }
 
+.kmom-box2 {
+  border: solid 2px #000;
+  background-color: #fde8cd;
+  grid-column: span 1;
+  margin: auto;
+}
+
+.kmom-box-wide {
+  border: solid 2px #000;
+  background-color: #fde8cd;
+  grid-column: span 3;
+  margin: auto;
+}
+
 .tnl {
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
   padding: 0;
   background-color: #f7c873;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -6625,6 +6653,10 @@ h1 {
   }
 
   .kmom-box {
+    grid-column: span 3;
+  }
+
+  .kmom-box2 {
     grid-column: span 3;
   }
 }
@@ -6685,4 +6717,7 @@ h1 {
   .sidebar {
     display: none;
   }
+}
+iframe {
+  size: 75%;
 }
