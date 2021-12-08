@@ -1,5 +1,6 @@
 * {
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
+    color: $font-color;    
 }
 
 html {
@@ -8,17 +9,30 @@ html {
 
 p {
     font-size: 1.25em;
-    margin-bottom: 1.75rem;
-    padding: 16px;
+    margin-bottom: 0.75rem;
+    padding: 24px;
+    color: $font-color;
+    line-height: 2em;
+    margin-left: 20%;
+}
+
+.nav a,
+.nav-toggle {
     color: $font-color;
 }
 
 li {
     color: $font-color;
+    border-style: solid; 
+}
+
+li a:hover {
+    color: #82ddf0;
 }
 
 a {
     color: $font-color;
+    text-shadow: 0.5px 0.5px $side-color-techno;
 }
 
 h1,
@@ -29,13 +43,14 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
     color: $font-color;
-    padding: 16px;
+    padding: 24px;
+    margin-left: 20%;
 }
 
 h1 {
     font-size: 2.8em;
-    margin-bottom: 3.5rem;
-    color: $font-color;    
+    color: $font-color;
+    text-shadow: 0.5px 0.5px $side-color-techno;       
 }
 
 @media (min-width: 64em) {

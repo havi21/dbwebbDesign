@@ -14,6 +14,16 @@ body {
     background-color: $background-alternative-color;
 }
 
+code {
+    font-family: Consolas,'courier new';
+    background-color: $background-color-techno;
+}
+
+pre {
+    font-family: Consolas,'courier new';
+    background-color: $background-color-techno;
+}
+
 /* img {
     width: 20%;
     height: auto;

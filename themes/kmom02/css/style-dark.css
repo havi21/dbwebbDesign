@@ -6510,6 +6510,16 @@ body {
   background-color: #495057;
 }
 
+code {
+  font-family: Consolas, "courier new";
+  background-color: #343a40;
+}
+
+pre {
+  font-family: Consolas, "courier new";
+  background-color: #343a40;
+}
+
 /* img {
     width: 20%;
     height: auto;
@@ -6545,6 +6555,7 @@ body {
 
 * {
   font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 html {
@@ -6553,17 +6564,30 @@ html {
 
 p {
   font-size: 1.25em;
-  margin-bottom: 1.75rem;
-  padding: 16px;
+  margin-bottom: 0.75rem;
+  padding: 24px;
+  color: #fff;
+  line-height: 2em;
+  margin-left: 20%;
+}
+
+.nav a,
+.nav-toggle {
   color: #fff;
 }
 
 li {
   color: #fff;
+  border-style: solid;
+}
+
+li a:hover {
+  color: #82ddf0;
 }
 
 a {
   color: #fff;
+  text-shadow: 0.5px 0.5px #343a40;
 }
 
 h1,
@@ -6574,13 +6598,14 @@ h5,
 h6 {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  padding: 16px;
+  padding: 24px;
+  margin-left: 20%;
 }
 
 h1 {
   font-size: 2.8em;
-  margin-bottom: 3.5rem;
   color: #fff;
+  text-shadow: 0.5px 0.5px #343a40;
 }
 
 @media (min-width: 64em) {
@@ -6611,13 +6636,6 @@ h1 {
   border: solid 2px #000;
   background-color: #343a40;
   grid-column: span 1;
-  margin: auto;
-}
-
-.kmom-box-wide {
-  border: solid 2px #000;
-  background-color: #343a40;
-  grid-column: span 3;
   margin: auto;
 }
 

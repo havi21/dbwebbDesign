@@ -6494,7 +6494,7 @@ pre code {
 }
 
 body {
-  background-color: #faebcd;
+  background-color: #5296a5;
   max-width: 60%;
   margin: auto;
   line-height: 1.4;
@@ -6506,7 +6506,17 @@ body {
   border: 0 none;
   margin: 0;
   padding: 0;
-  background-color: #f7c873;
+  background-color: #fcd7ad;
+}
+
+code {
+  font-family: Consolas, "courier new";
+  background-color: #5296a5;
+}
+
+pre {
+  font-family: Consolas, "courier new";
+  background-color: #5296a5;
 }
 
 /* img {
@@ -6526,24 +6536,25 @@ body {
 }
 
 .nav {
-  background-color: #f7c873;
+  background-color: #fcd7ad;
   max-width: 100%;
   text-align: center;
   margin: 0%;
 }
 
 .footer {
-  background-color: #f7c873;
+  background-color: #fcd7ad;
 }
 
 .social {
   text-align: right;
-  background-color: #f7c873;
+  background-color: #fcd7ad;
   max-width: 100%;
 }
 
 * {
   font-family: "Roboto", sans-serif;
+  color: #141414;
 }
 
 html {
@@ -6552,17 +6563,30 @@ html {
 
 p {
   font-size: 1.25em;
-  margin-bottom: 1.75rem;
-  padding: 16px;
-  color: #333;
+  margin-bottom: 0.75rem;
+  padding: 24px;
+  color: #141414;
+  line-height: 2em;
+  margin-left: 20%;
+}
+
+.nav a,
+.nav-toggle {
+  color: #141414;
 }
 
 li {
-  color: #333;
+  color: #141414;
+  border-style: solid;
+}
+
+li a:hover {
+  color: #82ddf0;
 }
 
 a {
-  color: #333;
+  color: #141414;
+  text-shadow: 0.5px 0.5px #fde8cd;
 }
 
 h1,
@@ -6572,14 +6596,15 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
-  color: #333;
-  padding: 16px;
+  color: #141414;
+  padding: 24px;
+  margin-left: 20%;
 }
 
 h1 {
   font-size: 2.8em;
-  margin-bottom: 3.5rem;
-  color: #333;
+  color: #141414;
+  text-shadow: 0.5px 0.5px #fde8cd;
 }
 
 @media (min-width: 64em) {
@@ -6613,19 +6638,12 @@ h1 {
   margin: auto;
 }
 
-.kmom-box-wide {
-  border: solid 2px #000;
-  background-color: #fde8cd;
-  grid-column: span 3;
-  margin: auto;
-}
-
 .tnl {
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
   padding: 0;
-  background-color: #f7c873;
+  background-color: #fcd7ad;
 }
 
 .embed-container {
@@ -6677,21 +6695,21 @@ h1 {
   grid-row: 2;
   grid-column: span 1;
   border: solid 2px #000;
-  background-color: #faebcd;
+  background-color: #5296a5;
 }
 
 .sidebar {
   grid-row: 2;
   grid-column: span 1;
   border: solid 2px #000;
-  background-color: #faebcd;
+  background-color: #5296a5;
 }
 
 .technology {
   box-sizing: border-box;
   border: 0 none;
   padding: 0;
-  background-color: #f7c873;
+  background-color: #fcd7ad;
 }
 
 @media only screen and (max-width: 800px) {

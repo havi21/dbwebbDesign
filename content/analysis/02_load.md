@@ -20,7 +20,7 @@ Metod
 -----------------------
 Metoden som användes i analysen bestod av:
 PageSpeed. Hemsida som kontrollerar olika faktorer i loadspeed.
-colorfyit.com samt manuell kontroll iform av "Inspektera" i Google Chrome samt Paint 3D färgkontroll.
+Samt manuell kontroll iform av "Inspektera" i Google Chrome.
 
 Resultat
 -----------------------
@@ -92,6 +92,9 @@ De hemsidor jag valt har fyllt mina krav på snabbhet vilket innebär att mitt m
 Referenser
 -----------------------
 https://pagespeed.web.dev/
+https://www.netonnet.se/
+https://www.mjonasdjurklinik.se/
+https://robinjescott.com/
 
 Övrigt
 -----------------------
